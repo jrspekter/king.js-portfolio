@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- fim google fonts -->
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="menu.js" defer></script>
+    <title>King.JS</title>
+  </head>
+  <body>
+    <header>
+      <div class="interface">
+        <div class="logo">
+          <a href="index.html">
+            <img class="js" src="images/js-crown.png" alt="meu logo" />
+          </a>
+        </div>
+        <!--logo-->
+
+        <nav class="menu-desktop">
+          <ul>
+            <li><a href="#">Início</a></li>
+            <li><a href="#">Especialidades</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Projetos</a></li>
+          </ul>
+        </nav>
+
+        <div class="js-contato">
+          <a href="#">
+            <button>Contato</button>
+          </a>
+        </div>
+
+        <div class="btn-abrir-menu" id="btn-menu">
+          <!-- <- id usado para identificar e usar no script-->
+          <i class="bi bi-three-dots-vertical"></i>
+        </div>
+        <!--btn-abrir-menu-->
+
+        <div class="menu-mobile" id="menu-mobile">
+          <div class="btn-fechar">
+            <i class="bi bi-x-octagon"></i>
+          </div>
+
+          <nav>
+            <ul>
+              <li><a href="#">Início</a></li>
+              <li><a href="#">Especialidades</a></li>
+              <li><a href="#">Sobre</a></li>
+              <li><a href="#">Projetos</a></li>
+              <li><a href="">Contato</a></li>
+            </ul>
+          </nav>
+        </div>
+        <!--menu-mobile-->
+        <div class="overlay-menu"></div>
+      </div>
+      <!--interface-->
+    </header>
+
+    <main>
+      <section class="topo-do-site">
+        <div class="interface">
+          <div class="flex">
+            <div class="txt-topo-site">
+              Olá! <span></span>
+              <p>
+                Criatividade e inovação andam em conjunto. Com uma combinação de
+                design criativo, funcionalidade intuitiva e otimização para
+                resultados, estamos prontos para tornar online os seus sonhos.
+              </p>
+
+              <div class="js-contato">
+                <a href="#">
+                  <button>Entre em contato!</button>
+                </a>
+              </div>
+            </div>
+            <!--txt-topo-site-->
+
+            <div class="img-topo-site">
+              <img class="jan" src="images/jan.png" alt="foto do jan" />
+            </div>
+            <!--img-topo-do-site-->
+          </div>
+          <!--flex-->
+        </div>
+        <!--interface-->
+      </section>
+      <!--topo-do-site-->
+
+      <section class="especialidades">
+        <div class="interface">
+          <h2 class="título">
+            NOSSAS <span class="especial">ESPECIALIDADES</span>
+          </h2>
+          <div class="flex">
+            <div class="esp-box">
+              <i class="bi bi-code-square"></i>
+              <h3>Landing Pages</h3>
+              <p>
+                Elaboração front-end de páginas de apresentação, visando atrair
+                mais leitores, promover produtos específicos, divulgar
+                determinada ação da sua marca, Compartilhar promoções de datar
+                comemorativas e captura de leads.
+              </p>
+            </div>
+            <!--esp-box-->
+            <div class="esp-box">
+              <i class="bi bi-clipboard"></i>
+              <h3>Formulários</h3>
+              <p>
+                Criação de formulários com o objetivo de solicitar informações
+                de futuros clientes para iniciar um contato com eles através dos
+                canais de marketing utilizados.
+              </p>
+            </div>
+            <!--forms-->
+            <div class="esp-box">
+              <i class="bi bi-search"></i>
+              <h3>API's básicas</h3>
+              <p>
+                API, sigla da expressão inglesa Application Programming
+                Interface (em português Interface de Programação de
+                Aplicativos), basicamente funcionam como um tipo de ponte que
+                permite a comunicação entre diferentes sistemas. Na prática, uma
+                das partes solicita as informações que deseja receber e a
+                interface realiza esse processamento, solicitando os dados de
+                acordo com as regras e funcionalidades que ela disponibiliza.
+              </p>
+            </div>
+            <!--Api-->
+          </div>
+          <!--flex-->
+        </div>
+        <!--interface-->
+      </section>
+      <!--especialidades-->
+
+      <section class="sobre">
+        <div class="interface">
+          <div class="flex">
+            <div class="img-sobre">
+              <img class="js2" src="images/jan2.png" alt="foto sobre mim" />
+            </div>
+            <!--img-sobre-->
+
+            <div class="txt-sobre">
+              <h2>MUITO PRAZER, <span>SOMOS A KING.JS</span></h2>
+              <p>
+                A King é um sonho de um jovem chamado Janeslan Specter, mais conhecido como Jan. Pertencente a 1Kingdom group,
+                a King vem com o objetivo de tornar seu projeto digital cada vez mais real. 
+              </p>
+              <p>
+                Nossa equipe conta com um atendimento individualizado, proporcionando mais atenção as suas necessidades e idealizando um projeto único.
+                Atualmente, realizamos projetos front-end, mas calma ... a King tem crescido de forma exponencial e com isso, em breve estará realizando projetos mais completos.
+              </p>
+              <p class="reflex">
+                “Trabalhe com o que você ama e nunca mais precisará trabalhar na
+                vida.”<span>Confúcio.</span>
+              </p>
+              <div class="btn-social">
+                <a href="https://github.com/jrspecter" target="_blank"
+                  ><button><i class="bi bi-github"></i></button
+                ></a>
+                <a href="#"
+                  ><button><i class="bi bi-whatsapp"></i></button
+                ></a>
+              </div>
+              <!--btn-social-->
+            </div>
+            <!--txt-sobre-->
+          </div>
+          <!--flex-->
+        </div>
+        <!--interface-->
+      </section>
+      <!--sobre-->
+
+      <section class="portfolio">
+        <div class="interface">
+          <h2 class="título">NOSSO <span class="especial">PORTFÓLIO.</span></h2>
+          <div class="flex">
+            <div class="img-port" style="background-image: url(images/api.jpg)">
+              <!--Class para as imagens do portóflio-->
+              <div class="overlay">Consultor de CEPs</div>
+            </div>
+            <div class="img-port" style="background-image: url(images/lp.jpg)">
+              <!--Class para as imagens do portóflio-->
+              <div class="overlay">Landing Page</div>
+            </div>
+            <div
+              class="img-port"
+              style="background-image: url(images/form.jpg)"
+            >
+              <!--Class para as imagens do portóflio-->
+              <div class="overlay">Formulário</div>
+            </div>
+          </div>
+          <!--flex-->
+        </div>
+        <!--interface-->
+      </section>
+      <!--portfolio-->
+
+      <section class="formulario">
+        <div class="interface">
+          <!--Classe responsável por delimitar as laterais dos sites-->
+          <h2 class="título">FALE <span class="especial">CONOSCO.</span></h2>
+
+          <form action="">
+            <input
+              type="text"
+              name=""
+              id=""
+              placeholder="Seu nome completo:"
+              required
+            />
+            <!--placeholder: o que vai aparecer dentro da caixa - required: torna o campo a ser preenchido obrigatoriamente -->
+            <input
+              type="text"
+              name=""
+              id=""
+              placeholder="Seu e-mail:"
+              required
+            />
+            <input type="text" name="" id="" placeholder="Seu celular:" />
+            <textarea
+              name=""
+              id=""
+              placeholder="Sua mensagem:"
+              required
+            ></textarea>
+            <div class="btn-enviar"><input type="submit" value="ENVIAR" /></div>
+          </form>
+        </div>
+      </section>
+
+      <footer>
+        <!-- <- utilizado para fazer o rodapé do projeto-->
+        <div class="interface">
+          <div class="line-footer">
+            <div class="flex">
+              <div class="logo-footer">
+                <img class="js" src="images/js-crown.png" alt="meu logo" />
+              </div>
+              <div class="btn-social">
+                <a href="https://github.com/jrspecter" target="_blank"
+                  ><button><i class="bi bi-github"></i></button
+                ></a>
+                <a href="#"
+                  ><button><i class="bi bi-whatsapp"></i></button
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="line-footer borda">
+            <p>
+              <i class="bi bi-mailbox"></i>
+              <a href="mailto:jan98.7@hotmail.com"> jan98.7@hotmail.com</a>
+            </p>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
